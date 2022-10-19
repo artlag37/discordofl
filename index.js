@@ -1,9 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const { MessageAttachment, MessageEmbed } = require('discord.js')
-const Canvas = require('canvas');
-var mysql = require('mysql');
-require("dotenv").config();
 
 // Notre préfixe de commande
 const prefixCmd = '-';
